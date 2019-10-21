@@ -10,4 +10,4 @@ d) form error checking is demonstrated with input value length<3 \
 e) password match (for two fields) could be done: \
 	$(#input1).val()!=$(#input2).val() \
 Since there is no database in backend, username '12345' (with any password) will pass, any other input will return error\
-There is also a Captcha mockup in form of color picker: you must click on any color to proceed\
+There is also a Captcha mockup in form of color picker: you must click on any color to proceed
