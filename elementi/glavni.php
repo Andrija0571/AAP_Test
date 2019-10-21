@@ -127,7 +127,8 @@ class Glavni
 				echo file_get_contents($file);
 				break;
 			default:
-				header('Location: http://www.recepcija.hr');
+				//actually redirects away as it would be illegal call
+				header('Location: index.php?status=failed');
 				break;
 		}
 		die;
