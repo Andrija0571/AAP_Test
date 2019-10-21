@@ -1,0 +1,195 @@
+body {
+	background-color:#eff2f6;
+	font: 14px/22px "Roboto",  sans-serif;color: #484848;
+}
+.fixedbox {overflow:hidden;}
+ 
+/* --HEADER-- */
+.faktor_header {
+	width:100%; 
+	left:0px;
+	top:0px;
+	padding-top:2px;
+	background-color:#242A38;
+	padding-bottom:0px;
+	z-index:997;
+	position:fixed;
+}
+.faktor_header_title {
+	display:inline-block;
+	vertical-align:top;
+	font: bold 26px 'Play', sans-serif; 
+	color: #C3213D;
+	margin-top:2px;	
+	margin-left:6px;
+}
+.subtitle {
+	font-size:14px;
+	margin:0px;
+	margin-top:2px;
+	color:orange;}
+ 
+.faktor_header_line {
+	margin-top: 0px;
+	background-color:orange;
+	height:3px;
+}
+@media (max-width: 768px){
+	.faktor_header_title {
+		font-size:22px;
+		margin-top:8px;
+	}
+	.subtitle {
+		font-size:12px;
+		margin-top:4px;
+	}
+}
+.header-container {}
+@media (min-width: 992px){
+	.header-container{max-width:960px}
+}
+@media (min-width: 1200px){
+	.header-container{max-width:1140px}
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mrl-10 {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+@media (min-width: 868px){
+	.mrl-10  {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+.faktor_header_logo {}
+@media (max-width: 340px){
+	.faktor_header_logo  {
+		width:27px;
+		height:31px;
+		margin-top:12px;
+	}
+}
+/* --END HEADER-- */
+
+/* --HEADER NAVIGATION */
+.faktor_header_nav {
+	margin:0;
+	vertical-align:right;
+}
+/* --END HEADER NAVIGATION-- */
+
+/* --LOGIN-- */ 
+.faktor_login	{
+	position: relative;
+    z-index: auto;
+    background: #eff2f6; 
+	font: 16px/22px 'Roboto',  sans-serif;
+	}
+.faktor_login h3 {
+	color: #C3213D;text-shadow: 2px 2px 4px #CCAACC;}
+.form-control::-webkit-input-placeholder {
+    color: silver;
+    opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+    color: silver;
+    opacity: 1;
+}
+.form-control::-ms-input-placeholder {
+    color: silver;
+    opacity: 1;
+}
+.form-control::placeholder {
+    color: silver;
+    opacity: 1;
+}
+.login_field {
+    font-size: 16px;
+	width:100%;
+	max-width:480px;
+    padding: 15px 15px;
+	margin-bottom:18px;
+    border-radius: 0 16px 0 0;
+	border-left:7px solid #66afe9;
+}
+.form_error {
+	border-left:7px solid red;
+	border-bottom:1px solid red;
+}
+.btn-green {
+  height:48px;
+  width:100%;
+  max-width:480px;
+  font-weight:700;
+  color: #ffffff;
+  background-color: #10A130;
+  border-color: #107130;
+}
+.btn-green:hover {
+  color: #ffffff;
+  background-color: #028E1D;
+  border-color: #026E1D;
+ 
+}
+.btn-green:active:hover,.btn-green.active:hover,.btn-green:active:focus,.btn-green.active:focus,.btn-green:active.focus,.btn-green.active.focus,.open > .dropdown-toggle.btn-green.focus {
+  color: #ffffff;
+  background-color: #026E1D;
+  border-color: #024E1D;
+}
+.login_color {
+	padding:10px 0 30px 0;
+	text-align:left;
+	font-size:16px;
+}
+.login_color_item {
+	display: table-cell;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+.login_space {
+	display: table-cell;
+	width:18px;
+	height:30px;
+}
+.login_hide {
+	display:none;
+}
+@media only screen and (max-width: 620px) {
+	.btn-green {width:100%;height:36px;}
+	.contact_field {font-size:14px;}
+	.login_color {font-size:14px;}
+}
+.faktor_contact_response {
+	width:100%;
+	text-align:center;
+	padding-top:12px;
+}
+/* --END LOGIN-- */
+
+/* --H1/H5 sizes-- */
+h3 {font: bold 18px "Play", sans-serif;}
+@media (min-width: 200px){
+h3 {font-size:18px;}}
+@media (min-width: 400px){
+h3 {font-size:22px;}}
+@media (min-width: 900px){
+h3 {font-size:24px;}}
+@media (min-width: 1100px){
+h3 {font-size:26px;}}
+
+h4 {font: bold 16px "Play", sans-serif;color:red;}
+@media (min-width: 200px){
+h4 {font-size:16px;}}
+@media (min-width: 400px){
+h4 {font-size:18px;}}
+@media (min-width: 900px){
+h4 {font-size:20px;}}
+@media (min-width: 1100px){
+h4 {font-size:22px;}}
+/* --END H1/H5 sizes-- */
+
+
